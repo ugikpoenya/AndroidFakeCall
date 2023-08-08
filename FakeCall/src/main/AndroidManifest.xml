@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ugikpoenya.fakecall">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application>
+        <receiver
+            android:name=".AppReceiver"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".whatsapp.WaVideoCallActivity"
+            android:exported="false" />
+        <activity
+            android:name=".whatsapp.WaVoiceCallActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".facebook.FbVideoCallActivity"
+            android:exported="false" />
+        <activity
+            android:name=".facebook.FbVoiceCallActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".telegram.TeleVideoCallActivity"
+            android:exported="false" />
+        <activity
+            android:name=".telegram.TeleVoiceCallActivity"
+            android:exported="false" />
+
+    </application>
+
+</manifest>

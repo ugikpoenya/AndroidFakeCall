@@ -1,0 +1,11 @@
+<resources>
+    <string name="end_to_end">" End-to-end encrypted"</string>
+    <string name="calling2">WhatsApp voice call</string>
+    <string name="swipe">Swipe up to accept</string>
+    <string name="calling3">WhatsApp video call</string>
+    <string name="fbstatus">is calling you on Messenger…</string>
+    <string name="calling4">" Telegram Video Calls"</string>
+    <string name="calling7">Telegram voice call</string>
+
+
+</resources>
